@@ -1,0 +1,68 @@
+{
+  "name": "angular2-webpack",
+  "version": "0.0.1",
+  "description": "A webpack starter for Angular",
+  "contributors": [
+    "CAMPION Dimitri"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --port 3000",
+    "test": "karma start",
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "@angular/common": "~2.2.0",
+    "@angular/compiler": "2.2.0",
+    "@angular/core": "~2.2.0",
+    "@angular/forms": "^2.2.0",
+    "@angular/http": "~2.2.0",
+    "@angular/platform-browser": "~2.2.0",
+    "@angular/platform-browser-dynamic": "~2.2.0",
+    "@angular/router": "~3.2.0",
+    "core-js": "~2.4.1",
+    "rxjs": "~5.0.0-rc.3",
+    "zone.js": "~0.6.26"
+  },
+  "devDependencies": {
+    "@types/chai": "~3.4.34",
+    "@types/core-js": "~0.9.34",
+    "@types/electron": "~1.4.27",
+    "@types/hammerjs": "~2.0.33",
+    "@types/jasmine": "~2.5.38",
+    "@types/lodash": "~4.14.39",
+    "@types/node": "~6.0.48",
+    "@types/source-map": "~0.5.0",
+    "@types/uglify-js": "~2.6.28",
+    "@types/webpack": "~2.0.0",
+    "angular2-router-loader": "^0.3.4",
+    "angular2-template-loader": "~0.6.0",
+    "awesome-typescript-loader": "~2.2.4",
+    "css-loader": "~0.25.0",
+    "extract-text-webpack-plugin": "~1.0.1",
+    "file-loader": "~0.9.0",
+    "html-loader": "~0.4.4",
+    "html-webpack-plugin": "~2.24.1",
+    "jasmine-core": "~2.5.2",
+    "karma": "^1.3.0",
+    "karma-jasmine": "~1.0.2",
+    "karma-phantomjs-launcher": "~1.0.2",
+    "karma-sourcemap-loader": "~0.3.7",
+    "karma-webpack": "~1.8.0",
+    "null-loader": "~0.1.1",
+    "phantomjs-prebuilt": "~2.1.13",
+    "raw-loader": "~0.5.1",
+    "rimraf": "~2.5.4",
+    "string-replace-loader": "^1.0.5",
+    "style-loader": "~0.13.1",
+    "typescript": "~2.0.10",
+    "webpack": "~1.13.3",
+    "webpack-dev-server": "~1.16.2",
+    "webpack-merge": "~0.17.0"
+  }
+}
