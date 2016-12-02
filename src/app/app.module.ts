@@ -11,6 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AuthRoutingModule }   from './auth/auth-routing.module';
 import { AuthComponent } from './auth/auth.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 //import { HomeModule } from './home/home.module';
 
 @NgModule({
@@ -22,7 +24,9 @@ import { AuthComponent } from './auth/auth.component';
     JsonpModule,
 
     AppRoutingModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    NgbModule.forRoot()
+    
   ],
   declarations: [
     AppComponent,
